@@ -20,5 +20,5 @@ The following table outlines the supported FTP commands and their respective des
 | `cwd <path>`          | Change the current working directory to a different directory |
 | `rename <from> <to>`  | Rename files or directories                                   |
 | `retr <name>`         | Download a file (if it exists)                                |
-| `help`                | Display information about available commands.                 |
+| `help`                | Display information about available commands                  |
 | `quit`                | Logout                                                        |
