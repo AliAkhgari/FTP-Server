@@ -1,0 +1,13 @@
+214
+
+USER [username], Its argument is used to specify the user's string. It is used for user authentication.
+PASS [password], Its argument is used to specify the user's password. It is used for user authentication.
+PWD, Shows the current directory in which you are.
+MKD [path], Creates a directory in the defined path.
+DELE -f [filename], Deletes the file with the defined filename.
+DELE -d [directory path], Deletes the directory which is in the defined directory path.
+LS, Shows a list of the files and folders in the current directory.
+CWD [path], Changes the dirctory to the entered path. If no path entered, changes the directory to the initail directory.(server directory)
+RENAME [from] [to], Renames the entered file(from) to the second argument.
+RETR [name], Downloads the defined file, if it exists.
+QUIT, Logs out the client from the server.
